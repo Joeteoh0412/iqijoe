@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQI Real Estate - Global Real Estate Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo.png" alt="IQI Real Estate" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#locations">Locations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Global Real Estate Solutions</h1>
+            <p>Your partner in navigating the real estate landscape.</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service-item">
+                <h3>Residential Properties</h3>
+                <p>We provide top-notch residential property services to help you find your dream home.</p>
+            </div>
+            <div class="service-item">
+                <h3>Commercial Properties</h3>
+                <p>Expert solutions for your commercial property needs, from leasing to acquisition.</p>
+            </div>
+            <div class="service-item">
+                <h3>Property Management</h3>
+                <p>Comprehensive property management services to maximize your investment.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>IQI Real Estate is a global leader in real estate solutions, offering a full range of services to meet the needs of our clients.</p>
+        <p>With a presence in multiple countries, we are committed to delivering exceptional results in every market we operate in.</p>
+    </section>
+
+    <section id="locations">
+        <h2>Our Locations</h2>
+        <div class="location-grid">
+            <div class="location-item">
+                <h3>Kuala Lumpur</h3>
+                <p>The heart of Malaysia’s real estate market.</p>
+            </div>
+            <div class="location-item">
+                <h3>Johor Bahru</h3>
+                <p>Strategically located near Singapore, a booming real estate hub.</p>
+            </div>
+            <div class="location-item">
+                <h3>Penang</h3>
+                <p>A vibrant city known for its unique real estate opportunities.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Ready to find your next property? Contact us today!</p>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 IQI Real Estate. All rights reserved.</p>
+    </footer>
+</body>
+</html>
